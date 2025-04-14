@@ -1,3 +1,10 @@
+body{
+    background-color: rgb(23, 22, 22);
+    font-size: 125%;
+}
+main{
+    margin-top: 100px;
+}
 header{
     text-align: center;
     color: red;
@@ -11,6 +18,12 @@ header a{
     list-style-type: none;
     /*removes * from the list items 
 }*/
+a{
+    color: red;
+}
+a.hover{
+    color: green;
+}
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -52,4 +65,8 @@ li{
 }*/
 h1{
     height: 7rem;
+}
+.hlink{
+    text-decoration: none;
+    color: red;
 }
