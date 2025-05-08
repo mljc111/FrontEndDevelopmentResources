@@ -1,0 +1,98 @@
+ul.nav {
+  	list-style: none;
+  	display: block;
+  	width: 100%;
+  	position: relative;
+  	top: 0px;
+  	left: 10px;
+  	padding: 10px 0 10px 0;
+  	
+  }
+  
+ul.nav  li {
+  	margin:0;
+  	border-bottom: 1px solid #787878;
+  	border-left:   1px solid #787878;
+  	border-right:  1px solid #787878;
+  	line-height:1.5em;
+  	width:410px;
+  }
+  
+  ul.nav  li.w100 {
+  width:96%;
+  }
+  
+  ul.nav  li.del,  ul.nav  li.del a {
+    	margin: 5px 0 5px 0;
+    	background: #9a9a9a;
+    	line-height:1.5em;
+    	
+    	
+  }
+  
+   
+  ul.nav li a {
+ 	
+    color: #777;
+  	padding: 2px;
+  	outline: 0;
+  }
+  
+  ul.nav li a:hover {
+  	
+  	color: #777;
+  /*	background:#ffffff; */
+  	padding: 2px;
+  	outline: 0;
+  	
+  }
+
+::-webkit-input-placeholder {
+  color: rgba(255, 0, 0, 0.5);
+}
+:-moz-placeholder {/*Firefox 18-*/
+  color: rgba(255, 0, 0, 0.5);
+}
+::-moz-placeholder {/*Firefox 19+*/
+  color: rgba(255, 0, 0, 0.5);
+}
+:-ms-input-placeholder {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+
+
+#icon-menu {
+
+
+		position:fixed;
+		top:0;
+		margin-left:auto;
+	    margin-right:auto;
+		z-index:5;
+		width: 100%;
+		height:auto;
+}
+
+ul li.nav ul li.nav a:visited {
+	text-align: left;
+	color: #777;
+
+	font-size:14px;
+	z-index: 5;
+}
+
+ul li.nav a:visited {
+    font-size: 14px;
+    text-align: left;
+
+    color: #777;
+	z-index: 5;
+}
+
+a:visited {
+	color:#777;
+
+}
+
+.add a:visited: { color:#000; }
