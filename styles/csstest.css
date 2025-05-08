@@ -1,4 +1,25 @@
-ul.nav {
+body{
+    background-color: rgb(23, 22, 22);
+    font-size: 125%;
+}
+main{
+    margin-top: 100px;
+}
+header{
+    text-align: center;
+    color: red;
+}
+/*practice removing this
+header a{
+    text-decoration: none;
+}
+/* This removes the links' underlining*/
+/*nav{
+    list-style-type: none;
+    /*removes * from the list items 
+}*/
+
+nav.ul {
   	list-style: none;
   	display: block;
   	width: 100%;
@@ -9,7 +30,7 @@ ul.nav {
   	
   }
   
-ul.nav  li {
+nav.ul  li {
   	margin:0;
   	border-bottom: 1px solid #787878;
   	border-left:   1px solid #787878;
@@ -18,11 +39,11 @@ ul.nav  li {
   	width:410px;
   }
   
-  ul.nav  li.w100 {
+  nav.ul  li.w100 {
   width:96%;
   }
   
-  ul.nav  li.del,  ul.nav  li.del a {
+  nav.ul  li.del,  nav.ul  li.del a {
     	margin: 5px 0 5px 0;
     	background: #9a9a9a;
     	line-height:1.5em;
@@ -31,14 +52,14 @@ ul.nav  li {
   }
   
    
-  ul.nav li a {
+  nav.ul li a {
  	
     color: #777;
   	padding: 2px;
   	outline: 0;
   }
   
-  ul.nav li a:hover {
+ nav.ul i a:hover {
   	
   	color: #777;
   /*	background:#ffffff; */
@@ -73,8 +94,8 @@ ul.nav  li {
 		width: 100%;
 		height:auto;
 }
-
-ul li.nav ul li.nav a:visited {
+//check the following code//
+ul nav.ul ul nav.ul:visited {
 	text-align: left;
 	color: #777;
 
@@ -82,7 +103,7 @@ ul li.nav ul li.nav a:visited {
 	z-index: 5;
 }
 
-ul li.nav a:visited {
+ul  a:visited {
     font-size: 14px;
     text-align: left;
 
