@@ -10,14 +10,14 @@ header{
     color: red;
 }
 /*practice removing this
-header a{
+header*/
+a{
     text-decoration: none;
 }
 /* This removes the links' underlining*/
-/*nav{
+nav{
     list-style-type: none;
-    /*removes * from the list items 
-}*/
+}
 
 nav.ul {
   	list-style: none;
@@ -62,7 +62,7 @@ nav.ul  li {
  nav.ul i a:hover {
   	
   	color: #777;
-  /*	background:#ffffff; */
+  /**/	background:#ffffff; 
   	padding: 2px;
   	outline: 0;
   	
