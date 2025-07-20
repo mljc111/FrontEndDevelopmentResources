@@ -14,10 +14,10 @@ header a{
     text-decoration: none;
 }
 /* This removes the links' underlining*/
-/*nav{
+nav{
     list-style-type: none;
     /*removes * from the list items 
-}*/
+}
 a{
     color: red;
 }
